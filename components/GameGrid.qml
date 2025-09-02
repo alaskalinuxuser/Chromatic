@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
+import Lomiri.Components 1.2
 import "logic.js" as Logic
 import "colors.js" as Colors
 
@@ -75,14 +75,14 @@ Grid {
                 anchors.margins: selected ? parent.width / 10 : 0
                 Behavior on anchors.margins {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SnapDuration
-                        easing: UbuntuAnimation.StandardEasing
+                        duration: LomiriAnimation.SnapDuration
+                        easing: LomiriAnimation.StandardEasing
                     }
                 }
                 Behavior on color {
                     ColorAnimation {
-                        duration: UbuntuAnimation.StandradDuration
-                        easing: UbuntuAnimation.StandardEasing
+                        duration: LomiriAnimation.StandradDuration
+                        easing: LomiriAnimation.StandardEasing
                     }
                 }
             }
@@ -113,8 +113,8 @@ Grid {
                 opacity: getHintOpacity(hinting, showCornerHints);
                 Behavior on opacity {
                     NumberAnimation {
-                        duration: UbuntuAnimation.SleepyDuration
-                        easing: UbuntuAnimation.StandardEasing
+                        duration: LomiriAnimation.SleepyDuration
+                        easing: LomiriAnimation.StandardEasing
                     }
                 }
             }

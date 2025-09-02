@@ -1,11 +1,11 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
+import Lomiri.Components 1.2
 import "components"
 
 MainView {
     width: units.gu(45)
     height: units.gu(75)
-    applicationName: "palette.kevinfeyder"
+    applicationName: "palette.alaskalinuxuser"
     backgroundColor: "white"
 
     PageStack {

@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
+import Lomiri.Components 1.2
 import "colors.js" as Colors
 import "logic.js" as Logic
 
@@ -42,8 +42,8 @@ Page {
                 color: colorSets[currentSet][index]
                 Behavior on color {
                     ColorAnimation {
-                        duration: UbuntuAnimation.SleepyDuration
-                        easing: UbuntuAnimation.StandardEasing
+                        duration: LomiriAnimation.SleepyDuration
+                        easing: LomiriAnimation.StandardEasing
                     }
                 }
             }

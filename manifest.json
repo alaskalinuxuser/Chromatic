@@ -1,5 +1,5 @@
 {
-    "name": "palette.kevinfeyder",
+    "name": "palette.alaskalinuxuser",
     "description": "A game about arranging colors",
     "architecture": "all",
     "title": "Chromatic",
@@ -10,6 +10,6 @@
         }
     },
     "version": "0.4",
-    "maintainer": "Kevin Feyder <kevinfeyder@gmail.com>",
+    "maintainer": "Alaskalinuxuser <alaskalinuxuser@fastmail.com>",
     "framework": "@CLICK_FRAMEWORK@"
 }

@@ -1,6 +1,6 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
-import Ubuntu.Components.Popups 1.0
+import Lomiri.Components 1.2
+import Lomiri.Components.Popups 1.0
 
 Page {
     property var instructions: [
@@ -96,14 +96,14 @@ Page {
             opacity: instruction.hintButton ? 1 : 0
             Behavior on height {
                 NumberAnimation {
-                    duration: UbuntuAnimation.SnapDuration
-                    easing: UbuntuAnimation.StandardEasing
+                    duration: LomiriAnimation.SnapDuration
+                    easing: LomiriAnimation.StandardEasing
                 }
             }
             Behavior on opacity {
                 NumberAnimation {
-                    duration: UbuntuAnimation.SnapDuration
-                    easing: UbuntuAnimation.StandardEasing
+                    duration: LomiriAnimation.SnapDuration
+                    easing: LomiriAnimation.StandardEasing
                 }
             }
             MouseArea {
@@ -140,8 +140,8 @@ Page {
             }
             Behavior on opacity {
                 NumberAnimation {
-                    duration: UbuntuAnimation.SnapDuration
-                    easing: UbuntuAnimation.StandardEasing
+                    duration: LomiriAnimation.SnapDuration
+                    easing: LomiriAnimation.StandardEasing
                 }
             }
         }

@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
+import Lomiri.Components 1.2
 
 Page {
     title:"Credits"
@@ -44,6 +44,24 @@ Page {
                 }
                 Label{
                     text:"Paul Weaver"
+                    fontSize: "x-large"
+                    font.weight: Font.Light
+                    font.letterSpacing: units.gu(0.5)
+                }
+            }
+        }
+        Item{
+            width:parent.width
+            height:units.gu(5)
+            Column{
+                height:parent.height
+                spacing:units.gu(1)
+                anchors.horizontalCenter: parent.horizontalCenter
+                Label{
+                    text:"Maintainer"
+                }
+                Label{
+                    text:"Alaskalinuxuser"
                     fontSize: "x-large"
                     font.weight: Font.Light
                     font.letterSpacing: units.gu(0.5)

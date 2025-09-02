@@ -1,6 +1,6 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.2
-import Ubuntu.Components.Popups 1.0
+import Lomiri.Components 1.2
+import Lomiri.Components.Popups 1.0
 
 Item {
     property int currentPuzzle
@@ -95,7 +95,7 @@ Item {
             id: levelListComponent
             Popover {
                 id: levelListPopover
-                UbuntuListView {
+                LomiriListView {
                     height: units.gu(30)
                     width:parent.width
                     anchors.leftMargin: units.gu(2)
